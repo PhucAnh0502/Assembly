@@ -1,7 +1,7 @@
 #Laboratory Exercise 4, Home Assignment 1
 .text
-	addi $s1, $zero, 2
-	addi $s2, $zero, -3
+	addi $s1, $zero, 0xFFFFFFFF
+	addi $s2, $zero, 0X80000000
 start:
 	li $t0,0		#No Overflow is default status	
 	addu $s3,$s1,$s2	#s3 = s1 + s2
